@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title">
+	<title id="title">Blender placeholder thumbnail</title>
+	<rect width="96" height="96" rx="12" fill="#111113"/>
+	<circle cx="52" cy="52" r="22" fill="none" stroke="#ffffff" stroke-width="6"/>
+	<circle cx="52" cy="52" r="7" fill="#d71920"/>
+	<path d="M16 36h36M28 22l24 14M29 50l23-14" stroke="#d71920" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

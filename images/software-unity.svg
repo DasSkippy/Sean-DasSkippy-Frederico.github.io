@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title">
+	<title id="title">Unity placeholder thumbnail</title>
+	<rect width="96" height="96" rx="12" fill="#111113"/>
+	<path d="M48 13 78 30v35L48 83 18 65V30Z" fill="none" stroke="#d71920" stroke-width="6"/>
+	<path d="M48 13v70M18 30l60 35M78 30 18 65" stroke="#ffffff" stroke-width="4" opacity="0.85"/>
+</svg>
