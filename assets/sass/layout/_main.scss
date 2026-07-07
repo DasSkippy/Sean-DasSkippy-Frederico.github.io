@@ -28,6 +28,23 @@
 			text-align: center;
 		}
 
+		> .featured-projects-heading {
+			padding: 3rem (_size(padding) * 2) 0 (_size(padding) * 2);
+			margin: 0;
+
+			> .date {
+				margin: 0 0 (_size(element-margin) * 0.75) 0;
+			}
+
+			& + .posts {
+				border-top: 0;
+
+				> article:nth-child(-n + 2) {
+					padding-top: 2.5rem;
+				}
+			}
+		}
+
 		> .post {
 			@include padding((_size(padding) * 4), (_size(padding) * 4));
 
@@ -149,6 +166,20 @@
 		@include breakpoint('<=small') {
 			> * {
 				@include padding((_size(padding) * 1), (_size(padding) * 1));
+			}
+
+			> .featured-projects-heading {
+				padding: 2.5rem (_size(padding) * 1) 0 (_size(padding) * 1);
+
+				> .date {
+					margin-bottom: _size(element-margin) * 0.5;
+				}
+
+				& + .posts {
+					> article:nth-child(-n + 2) {
+						padding-top: 1.5rem;
+					}
+				}
 			}
 		}
 
